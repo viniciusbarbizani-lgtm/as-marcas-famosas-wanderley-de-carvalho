@@ -45,5 +45,5 @@ export const CONTACT = {
   phone: "(11) 99999-9999",
   email: "contato@asmarcasmaisfamosas.com.br",
   address: "Rua das Flores, 123, São Paulo, SP, 01234-567",
-  whatsApp: "https://wa.me/00000000000",
+  whatsApp: "https://wa.me/5541999386768",
 };

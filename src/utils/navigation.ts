@@ -38,7 +38,7 @@ const footerLinks = [
 const socialLinks = {
   facebook: "https://www.facebook.com/",
   x: "https://twitter.com/",
-  whatsApp: "https://whatsapp.com/",
+  whatsApp: "https://wa.me/5541999386768",
 };
 
 export default {
