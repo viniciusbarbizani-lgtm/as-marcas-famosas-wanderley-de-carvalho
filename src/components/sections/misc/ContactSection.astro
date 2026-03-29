@@ -100,7 +100,7 @@ const formSubTitle: string = "Entrarei em contato em 1-2 dias úteis.";
                   mode: "no-cors" // Google Scripts requerem no-cors em HTML estático
                 });
 
-                statusText.innerText = "Mensagem enviada com sucesso! Entraremos em contacto brevemente.";
+                statusText.innerHTML = "Mensagem enviada com sucesso!<br/>Entraremos em contato em breve.";
                 statusText.style.color = "green";
                 form.reset();
                 
