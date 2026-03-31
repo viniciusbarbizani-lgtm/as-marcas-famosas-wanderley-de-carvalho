@@ -17,7 +17,7 @@ export const SEO = {
   structuredData: {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    inLanguage: "en-US",
+    inLanguage: "pt-BR",
     "@id": SITE.url,
     url: SITE.url,
     name: SITE.title,
@@ -32,12 +32,12 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "pt_BR",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
+  title: `${SITE.title}: Ferro e aço para todos os fins`,
   description:
-    "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+    "Equipe seus projetos com os materiais de alta qualidade das Marcas Famosas. Oferecemos soluções em ferro e aço, máquinas e ferramentas com durabilidade e confiança. Explore nosso catálogo agora!",
   image: ogImageSrc,
 };
 

@@ -1,38 +1,38 @@
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
-  "badge": "Best value",
-  "thirdOption": "Enterprise Solutions?",
-  "btnText": "Get a Custom Quote",
+  "title": "Preços Simples e Transparentes",
+  "subTitle": "Aumente a eficiência com os planos claros e focados em valor das Marcas Famosas.",
+  "badge": "Melhor valor",
+  "thirdOption": "Soluções Empresariais?",
+  "btnText": "Solicite um Orçamento Personalizado",
 
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
+    "name": "Kit Iniciante",
+    "description": "A melhor opção para projetos DIY",
     "price": "49",
     "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "billingFrequency": "BRL / mensal",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Ferramentas básicas de hardware",
+      "Acesso a guias e tutoriais",
+      "Suporte padrão"
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseBtnTitle": "Obtenha o Kit Iniciante",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
+    "name": "Caixa de Ferramentas Profissional",
+    "description": "Ideal para uso em larga escala",
     "price": "89",
     "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "billingFrequency": "BRL / mensal",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Seleção de ferramentas premium",
+      "Suporte prioritário",
+      "Conteúdo e ofertas exclusivas",
+      "Descontos para pedidos em lote"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseBtnTitle": "Obtenha a Caixa Profissional",
     "purchaseLink": "#"
   }
 }
