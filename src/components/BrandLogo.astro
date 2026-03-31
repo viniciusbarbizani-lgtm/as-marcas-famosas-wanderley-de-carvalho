@@ -1,14 +1,20 @@
 ---
-import { Image } from "astro:assets";
-import logo from "@images/LOGO_asmarcasfamosas.svg";
+import logoRaw from "@images/LOGO_asmarcasfamosas.svg?raw";
 
 const { class: className } = Astro.props;
 ---
 
-<Image
-  src={logo}
-  alt="Marcas Famosas"
-  class={className}
-  draggable={false}
-  loading="eager"
-/>
+<div class={`brand-logo-container ${className}`} set:html={logoRaw} />
+
+<style is:global>
+  .brand-logo-container svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Ajuste para garantir visibilidade no modo claro caso o SVG use branco por defeito */
+  :root:not(.dark) .brand-logo-container svg path[fill="white"] {
+    fill: #262626;
+  }
+</style>
