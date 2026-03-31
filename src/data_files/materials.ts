@@ -53,10 +53,10 @@ export const materials = [
     materials: [
       "Parafusadeiras",
       "Furadeiras, marteletes e chaves de impacto",
-      "Misturados de acessórios",
+
       "Brocas",
       "Sopradores, lavadoras e aparador de grama",
-      "Máquinas para cortes",
+
       "Soldas",
       "Discos",
       "Ferro e aço",
