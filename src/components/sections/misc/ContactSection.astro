@@ -9,10 +9,10 @@ import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
 // Define the variables that will be used in this component
-const title: string = "Entre em Contato";
+const title: string = "Entre em contato conosco";
 const subTitle: string =
-  "Tem dúvidas ou precisa de ajuda com seu projeto? Entre em contato e juntos encontraremos as melhores soluções com nossos materiais e serviços especializados.";
-const formTitle: string = "Preencha o formulário abaixo e eu entrarei em contato em breve.";
+  "Tem dúvidas ou precisa de ajuda com seu projeto ou sua compra?<br/>Juntos encontraremos as melhores soluções com nossos materiais e serviços especializados.";
+const formTitle: string = "Preencha o formulário abaixo e entraremos em contato em breve.";
 const formSubTitle: string = "Entrarei em contato em 1-2 dias úteis.";
 
 ---
@@ -26,8 +26,7 @@ const formSubTitle: string = "Entrarei em contato em 1-2 dias úteis.";
       >
         {title}
       </h1>
-      <p class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400">
-        {subTitle}
+      <p class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400" set:html={subTitle}>
       </p>
     </div>
 
@@ -132,10 +131,10 @@ const formSubTitle: string = "Entrarei em contato em 1-2 dias úteis.";
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Endereço"
-          content="Marcas Famosas"
-          isAddressVisible={true}
-          addressContent="Rua das Flores, 123 - Centro, São Paulo - SP, 01234-567"
+          heading="Marcas Famosas Representações Comerciais LTDA"
+          content="Atendemos os estados do Paraná e Santa Catarina."
+          isAddressVisible={false}
+          addressContent=""
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
